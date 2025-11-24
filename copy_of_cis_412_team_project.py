@@ -15,7 +15,9 @@ Original file is located at
 # Import the data set
 import pandas as pd
 import numpy as np
-df = pd.read_csv("/content/test.csv")
+
+csv_url = "https://raw.githubusercontent.com/<username>/<repo>/<branch>/test.csv"
+df = pd.read_csv(csv_url)
 
 # View first few rows
 df.head()
