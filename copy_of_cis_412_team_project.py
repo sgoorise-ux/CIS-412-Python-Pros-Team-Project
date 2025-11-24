@@ -16,7 +16,7 @@ Original file is located at
 import pandas as pd
 import numpy as np
 
-csv_url = "https://raw.githubusercontent.com/<username>/<repo>/<branch>/test.csv"
+csv_url = "https://github.com/sgoorise-ux/CIS-412-Python-Pros-Team-Project/blob/main/test.csv"
 df = pd.read_csv(csv_url)
 
 # View first few rows
