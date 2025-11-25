@@ -23,6 +23,7 @@ import io
 import os
 import matplotlib.pyplot as plt
 import seaborn as sns
+pip install matplotlib
 
 st.title("CIS 412 — Airline Passenger Satisfaction (Streamlit)")
 st.markdown("Auto-converted Streamlit app. If the dataset isn't found automatically, upload it below or provide a raw URL.")
